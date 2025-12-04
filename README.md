@@ -13,7 +13,7 @@ This program runs on the following operating systems:
 > This tool directly intervenes in the Windows **boot process (BootExecute)**.<br>ncorrect settings may cause **Windows to fail to start**.<br> Installation, modification, and execution are **at your own risk**.<br> The developer **assumes no responsibility** for any damage or malfunction.
 
 > [!WARNING]
-> On Windows XP, the following message appears and the program does not run.<img width="521" height="126" alt="image" src="https://github.com/user-attachments/assets/ba029a34-d1f7-423a-aa23-cfaa153bccc3" />
+> It probably won't work on Windows XP because the following message will be displayed:<img width="521" height="126" alt="image" src="https://github.com/user-attachments/assets/ba029a34-d1f7-423a-aa23-cfaa153bccc3" />
 
 
 # Build command
