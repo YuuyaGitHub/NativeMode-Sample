@@ -44,10 +44,10 @@ reg unload HKLM\BROKEN
 ```
 
 # Notes
-* The program must be placed in System32 because BootExecute does not allow absolute paths.
+* The program must be placed in System32 because `BootExecute` does not allow absolute paths.
 * This runs before Win32, so only the NT Native API is available.
 * printf, MessageBox, Win32 API, and CRT functions cannot be used.
-* Make sure autocheck autochk * is always kept in BootExecute to avoid boot issues.
+* Make sure `autocheck autochk *` is always kept in `BootExecute` to avoid boot issues.
 
 # Contributions
 All pull requests will be ignored, but you are welcome to fork and change the message or display time!
